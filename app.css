@@ -1,0 +1,58 @@
+body {
+	background-color: #092b40;
+	color: white;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-fluid > a {
+	margin-top : 2em;
+}
+
+.result {
+	background-color: #EEE;
+	color: black;
+}
+
+.form-control {
+	margin-bottom: 1em;
+	max-width: 300px;
+	width: 80%;
+	background-color: inherit;
+	color: #EEE;
+	border: 2px solid coral;
+	border-radius: 40px;
+}
+
+#results {
+	width: 85%;
+}
+
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	color: #EEE;
+}
+
+a:hover {
+	color: coral;
+}
+
+.result {
+	margin: 1em;
+	padding: 2% 5%;
+	border-left : 5px solid #092b40;
+}
+
+.result:hover {
+	border-left-color: coral;
+}
+
+.result > h4 {
+	font-weight: bold;
+}
